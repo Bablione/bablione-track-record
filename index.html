@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POL Track Record</title>
+<meta name="description" content="Public, hash-chained track record for a near-certainty Polymarket trading bot.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-mark">POL</div>
+    <div>
+      <h1>Track Record</h1>
+      <p id="subtitle">Loading…</p>
+    </div>
+  </div>
+  <div class="legend">
+    <span class="chip chip-snip">SNIP</span>
+    <span class="chip chip-beast">BEAST</span>
+    <span class="chip chip-cert">CERT</span>
+    <span class="chip chip-ext">EXT</span>
+  </div>
+</header>
+
+<section class="kpis" id="kpis">
+  <div class="kpi"><span class="kpi-lbl">TRADES</span><span class="kpi-val" id="k-trades">—</span><span class="kpi-sub" id="k-trades-sub">—</span></div>
+  <div class="kpi"><span class="kpi-lbl">WIN RATE</span><span class="kpi-val" id="k-wr">—</span><span class="kpi-sub" id="k-wr-sub">—</span></div>
+  <div class="kpi"><span class="kpi-lbl">PnL</span><span class="kpi-val" id="k-pnl">—</span><span class="kpi-sub" id="k-pnl-sub">—</span></div>
+  <div class="kpi"><span class="kpi-lbl">RETURN</span><span class="kpi-val" id="k-ret">—</span><span class="kpi-sub" id="k-ret-sub">on volume</span></div>
+  <div class="kpi"><span class="kpi-lbl">BEST STREAK</span><span class="kpi-val" id="k-streak">—</span><span class="kpi-sub">consecutive wins</span></div>
+  <div class="kpi"><span class="kpi-lbl">VOLUME</span><span class="kpi-val" id="k-vol">—</span><span class="kpi-sub">USDC traded</span></div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <h2>Cumulative P&amp;L</h2>
+    <span id="chart-range" class="muted"></span>
+  </div>
+  <div class="chart-wrap"><canvas id="pnl-chart"></canvas></div>
+</section>
+
+<section class="two-col">
+  <div class="card">
+    <h2>By Coin</h2>
+    <table id="by-coin" class="rows"></table>
+  </div>
+  <div class="card">
+    <h2>By Day (UTC)</h2>
+    <table id="by-day" class="rows"></table>
+  </div>
+</section>
+
+<section class="two-col">
+  <div class="card">
+    <h2>Entry Types</h2>
+    <table id="by-type" class="rows"></table>
+  </div>
+  <div class="card">
+    <h2>Compound Runs</h2>
+    <div id="runs-body" class="muted">No ended runs yet.</div>
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <h2>Recent Trades</h2>
+    <span class="muted">Newest first · slug links open Polymarket for independent verification.</span>
+  </div>
+  <table id="recent" class="recent-table">
+    <thead><tr>
+      <th>Time (UTC)</th>
+      <th>Coin</th>
+      <th>Side</th>
+      <th>Type</th>
+      <th>Ask</th>
+      <th>Bet</th>
+      <th>PnL</th>
+      <th>Result</th>
+      <th>Verify</th>
+    </tr></thead>
+    <tbody id="recent-body"></tbody>
+  </table>
+  <div class="muted" id="recent-more"></div>
+</section>
+
+<footer>
+  <div class="provenance">
+    <h3>Provenance</h3>
+    <p>Every snapshot is hash-chained: <code>manifest.this_hash = sha256(trades || summary || runs)</code>, and each new manifest carries <code>prev_hash</code> equal to the previous manifest's <code>this_hash</code>. Walk the commit history of this repository to verify the chain has not been rewritten.</p>
+    <div class="hashes">
+      <div><span class="hash-lbl">Snapshot</span> <code id="prov-when">—</code></div>
+      <div><span class="hash-lbl">This hash</span> <code id="prov-this">—</code></div>
+      <div><span class="hash-lbl">Prev hash</span> <code id="prov-prev">—</code></div>
+    </div>
+  </div>
+  <div class="redaction">
+    <h3>What's redacted</h3>
+    <p id="redaction-note">—</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
