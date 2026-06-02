@@ -1,6 +1,24 @@
 [
   {
     "ask": 0.99,
+    "bet": 50.354963999999995,
+    "bypass": false,
+    "coin": "BTC",
+    "compound_n": 103,
+    "end_ts": 1780395300,
+    "entry_type": "certainty",
+    "exit": "oracle",
+    "fee": 0.035248,
+    "pnl": 0.473388,
+    "pot_id": "main",
+    "result": "WIN",
+    "shares": 50.8636,
+    "side": "Up",
+    "slug": "btc-updown-5m-1780395000",
+    "time": 1780395294.0854652
+  },
+  {
+    "ask": 0.99,
     "bet": 24.539922,
     "bypass": false,
     "coin": "BTC",

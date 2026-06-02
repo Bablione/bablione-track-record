@@ -1,17 +1,17 @@
 {
   "beast": {
     "losses": 0,
-    "trades": 29,
+    "trades": 30,
     "win_rate": 1.0,
-    "wins": 29
+    "wins": 30
   },
   "by_coin": {
     "BTC": {
       "losses": 0,
-      "pnl": 13.783461,
-      "trades": 55,
+      "pnl": 14.256849,
+      "trades": 56,
       "win_rate": 1.0,
-      "wins": 55
+      "wins": 56
     },
     "ETH": {
       "losses": 0,
@@ -52,29 +52,29 @@
     },
     "2026-06-02": {
       "losses": 0,
-      "pnl": 6.704631,
-      "trades": 26,
+      "pnl": 7.178019,
+      "trades": 27,
       "win_rate": 1.0,
-      "wins": 26
+      "wins": 27
     }
   },
   "longest_loss_streak": 0,
-  "longest_win_streak": 102,
+  "longest_win_streak": 103,
   "losses": 0,
   "redaction_note": "This dataset is sanitized for public publication. Fields omitted intentionally: token_id, order_id, win_rate, sl_price. The slug is published so anyone can independently verify each market on polymarket.com. Strategy parameters and entry thresholds are not published anywhere.",
-  "return_pct": 0.9833,
+  "return_pct": 0.9823,
   "runs_archive_count": 0,
-  "snapshot_at": "2026-06-02T10:15:21.891915Z",
+  "snapshot_at": "2026-06-02T10:26:34.664408Z",
   "snip": {
     "losses": 0,
     "trades": 3,
     "win_rate": 1.0,
     "wins": 3
   },
-  "total_pnl": 21.556489,
-  "total_volume": 2192.360484,
-  "trades_resolved": 102,
-  "trades_total": 102,
+  "total_pnl": 22.029877,
+  "total_volume": 2242.715448,
+  "trades_resolved": 103,
+  "trades_total": 103,
   "win_rate": 1.0,
-  "wins": 102
+  "wins": 103
 }
