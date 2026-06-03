@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "ended_at": 1780425315.3239942,
+    "history": [
+      {
+        "from": 10.0,
+        "pot": 20.146842,
+        "to": 20.0,
+        "trades": 37
+      },
+      {
+        "from": 9.0,
+        "pot": 10.063885,
+        "to": 10.0,
+        "trades": 5
+      },
+      {
+        "from": 8.0,
+        "pot": 9.228701,
+        "to": 9.0,
+        "trades": 5
+      },
+      {
+        "from": 7.0,
+        "pot": 8.046339,
+        "to": 8.0,
+        "trades": 7
+      },
+      {
+        "from": 6.0,
+        "pot": 7.145914,
+        "to": 7.0,
+        "trades": 5
+      },
+      {
+        "from": 5.0,
+        "pot": 6.021085,
+        "to": 6.0,
+        "trades": 10
+      },
+      {
+        "from": 4.0,
+        "pot": 5.090799,
+        "to": 5.0,
+        "trades": 5
+      },
+      {
+        "from": 3.0,
+        "pot": 4.027359,
+        "to": 4.0,
+        "trades": 5
+      },
+      {
+        "from": 2.0,
+        "pot": 3.315696,
+        "to": 3.0,
+        "trades": 9
+      }
+    ],
+    "last_coin": "BTC",
+    "last_side": "Up",
+    "losses": 0,
+    "milestone_at_end": 30.0,
+    "milestone_trades_at_end": 23,
+    "pot_at_end": 0.0,
+    "reason": "oracle_loss",
+    "recovered": null,
+    "run_start": 1780221292.641276,
+    "total_trades": 111,
+    "wins": 110
+  }
+]
