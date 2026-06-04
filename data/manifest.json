@@ -2,11 +2,11 @@
   "chain_algorithm": "sha256(trades.json || summary.json || runs.json)",
   "files": {
     "runs.json": "7a2b601d09d65e8987e7c0b8473362488061de499455b94939c99bb828af02f4",
-    "summary.json": "be038ef2c202a2923f2da1802c2f79f7156c36c503a629736e52ef422624f412",
-    "trades.json": "dc0276202c4dfb91af13cc18bd3dc8889d9ca2b6ea35212243061c29bb8e11a8"
+    "summary.json": "d23792c0eff602eee62f20c4197345b6d20f2c9b7a5e0557eb55fc79457d7f49",
+    "trades.json": "9ce916ec2f86c81ee3a29744a3a41a40561101c976ae90c577d04e77b45f3014"
   },
   "policy": "Snapshots are append-only via the hash chain. To verify the chain has not been rewritten, walk manifest history and check that each `prev_hash` matches the previous commit's `this_hash`.",
-  "prev_hash": "780e8d0f83144231ea83e156d7cf036bfc975539205abb9a062d7d04bbb130c2",
-  "snapshot_at": "2026-06-03T00:00:14.868640Z",
-  "this_hash": "65c16ed1729d24c46ffccdedd83668647a11358b523065517e07f97b5745dc57"
+  "prev_hash": "65c16ed1729d24c46ffccdedd83668647a11358b523065517e07f97b5745dc57",
+  "snapshot_at": "2026-06-04T00:00:52.352813Z",
+  "this_hash": "c873092e8f7dde91f93181ba6396be5136afb944d671a9ace8e514950f97d2c9"
 }
