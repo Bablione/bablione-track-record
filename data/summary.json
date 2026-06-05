@@ -1,9 +1,9 @@
 {
   "beast": {
     "losses": 0,
-    "trades": 47,
+    "trades": 52,
     "win_rate": 1.0,
-    "wins": 47
+    "wins": 52
   },
   "by_coin": {
     "BNB": {
@@ -15,31 +15,31 @@
     },
     "BTC": {
       "losses": 1,
-      "pnl": -2.961626,
-      "trades": 98,
-      "win_rate": 0.9898,
-      "wins": 97
+      "pnl": -0.681418,
+      "trades": 119,
+      "win_rate": 0.9916,
+      "wins": 118
     },
     "ETH": {
-      "losses": 0,
-      "pnl": 6.988195,
-      "trades": 34,
-      "win_rate": 1.0,
-      "wins": 34
+      "losses": 1,
+      "pnl": 5.576888,
+      "trades": 43,
+      "win_rate": 0.9767,
+      "wins": 42
     },
     "SOL": {
       "losses": 0,
-      "pnl": 3.795349,
-      "trades": 16,
+      "pnl": 3.937583,
+      "trades": 28,
       "win_rate": 1.0,
-      "wins": 16
+      "wins": 28
     },
     "XRP": {
       "losses": 0,
-      "pnl": 3.146424,
-      "trades": 16,
+      "pnl": 3.663349,
+      "trades": 21,
       "win_rate": 1.0,
-      "wins": 16
+      "wins": 21
     }
   },
   "by_day": {
@@ -72,30 +72,30 @@
       "wins": 31
     },
     "2026-06-04": {
-      "losses": 0,
-      "pnl": 5.517746,
-      "trades": 18,
-      "win_rate": 1.0,
-      "wins": 18
+      "losses": 1,
+      "pnl": 7.045806,
+      "trades": 65,
+      "win_rate": 0.9846,
+      "wins": 64
     }
   },
   "longest_loss_streak": 1,
   "longest_win_streak": 110,
-  "losses": 1,
+  "losses": 2,
   "redaction_note": "This dataset is sanitized for public publication. Fields omitted intentionally: token_id, order_id, win_rate, sl_price. The slug is published so anyone can independently verify each market on polymarket.com. Strategy parameters and entry thresholds are not published anywhere.",
-  "return_pct": 0.2335,
-  "runs_archive_count": 1,
-  "snapshot_at": "2026-06-04T18:02:31.381163Z",
+  "return_pct": 0.2489,
+  "runs_archive_count": 2,
+  "snapshot_at": "2026-06-05T01:55:50.097301Z",
   "snip": {
-    "losses": 0,
-    "trades": 14,
-    "win_rate": 1.0,
-    "wins": 14
+    "losses": 1,
+    "trades": 55,
+    "win_rate": 0.9818,
+    "wins": 54
   },
-  "total_pnl": 10.977743,
-  "total_volume": 4700.752936,
-  "trades_resolved": 165,
-  "trades_total": 165,
-  "win_rate": 0.993939,
-  "wins": 164
+  "total_pnl": 12.505803,
+  "total_volume": 5024.458956,
+  "trades_resolved": 212,
+  "trades_total": 212,
+  "win_rate": 0.990566,
+  "wins": 210
 }

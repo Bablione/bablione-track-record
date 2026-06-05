@@ -1,5 +1,33 @@
 [
   {
+    "ended_at": 1780610815.99148,
+    "history": [
+      {
+        "from": 10.0,
+        "pot": 20.168301,
+        "to": 20.0,
+        "trades": 21
+      },
+      {
+        "from": 40.0,
+        "pot": 50.197336,
+        "to": 50.0,
+        "trades": 21
+      }
+    ],
+    "last_coin": "ETH",
+    "last_side": "Up",
+    "losses": 0,
+    "milestone_at_end": 20.0,
+    "milestone_trades_at_end": 59,
+    "pot_at_end": 24.83795,
+    "reason": "oracle_loss",
+    "recovered": null,
+    "run_start": 1780432557.36772,
+    "total_trades": 101,
+    "wins": 100
+  },
+  {
     "ended_at": 1780425315.3239942,
     "history": [
       {
