@@ -85,7 +85,7 @@
   "redaction_note": "This dataset is sanitized for public publication. Fields omitted intentionally: token_id, order_id, win_rate, sl_price. The slug is published so anyone can independently verify each market on polymarket.com. Strategy parameters and entry thresholds are not published anywhere.",
   "return_pct": 0.2489,
   "runs_archive_count": 2,
-  "snapshot_at": "2026-06-05T01:55:50.097301Z",
+  "snapshot_at": "2026-06-06T00:59:33.479556Z",
   "snip": {
     "losses": 1,
     "trades": 55,
