@@ -1,5 +1,42 @@
 [
   {
+    "ended_at": 1780785105.780483,
+    "history": [
+      {
+        "from": 20.0,
+        "pot": 30.165321,
+        "to": 30.0,
+        "trades": 8
+      }
+    ],
+    "last_coin": "SOL",
+    "last_side": "Up",
+    "losses": 0,
+    "milestone_at_end": 30.0,
+    "milestone_trades_at_end": 6,
+    "pot_at_end": 28.32989,
+    "reason": "oracle_loss",
+    "recovered": null,
+    "run_start": 1780767711.45538,
+    "total_trades": 14,
+    "wins": 13
+  },
+  {
+    "ended_at": 1780765535.402876,
+    "history": [],
+    "last_coin": "SOL",
+    "last_side": "Up",
+    "losses": 0,
+    "milestone_at_end": 20.0,
+    "milestone_trades_at_end": 53,
+    "pot_at_end": 25.529222,
+    "reason": "oracle_loss",
+    "recovered": null,
+    "run_start": 1780737594.665062,
+    "total_trades": 53,
+    "wins": 52
+  },
+  {
     "ended_at": 1780610815.99148,
     "history": [
       {

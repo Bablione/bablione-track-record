@@ -1,42 +1,35 @@
 {
   "beast": {
     "losses": 0,
-    "trades": 52,
+    "trades": 57,
     "win_rate": 1.0,
-    "wins": 52
+    "wins": 57
   },
   "by_coin": {
-    "BNB": {
-      "losses": 0,
-      "pnl": 0.009401,
-      "trades": 1,
-      "win_rate": 1.0,
-      "wins": 1
-    },
     "BTC": {
       "losses": 1,
-      "pnl": -0.681418,
-      "trades": 119,
-      "win_rate": 0.9916,
-      "wins": 118
+      "pnl": 2.039986,
+      "trades": 111,
+      "win_rate": 0.991,
+      "wins": 110
     },
     "ETH": {
-      "losses": 1,
-      "pnl": 5.576888,
-      "trades": 43,
-      "win_rate": 0.9767,
-      "wins": 42
+      "losses": 0,
+      "pnl": 8.865863,
+      "trades": 41,
+      "win_rate": 1.0,
+      "wins": 41
     },
     "SOL": {
-      "losses": 0,
-      "pnl": 3.937583,
-      "trades": 28,
-      "win_rate": 1.0,
-      "wins": 28
+      "losses": 1,
+      "pnl": 0.249115,
+      "trades": 20,
+      "win_rate": 0.95,
+      "wins": 19
     },
     "XRP": {
       "losses": 0,
-      "pnl": 3.663349,
+      "pnl": 5.776629,
       "trades": 21,
       "win_rate": 1.0,
       "wins": 21
@@ -72,30 +65,37 @@
       "wins": 31
     },
     "2026-06-04": {
+      "losses": 0,
+      "pnl": 8.06316,
+      "trades": 22,
+      "win_rate": 1.0,
+      "wins": 22
+    },
+    "2026-06-06": {
       "losses": 1,
-      "pnl": 7.045806,
-      "trades": 65,
-      "win_rate": 0.9846,
-      "wins": 64
+      "pnl": 3.408436,
+      "trades": 24,
+      "win_rate": 0.9583,
+      "wins": 23
     }
   },
   "longest_loss_streak": 1,
   "longest_win_streak": 110,
   "losses": 2,
   "redaction_note": "This dataset is sanitized for public publication. Fields omitted intentionally: token_id, order_id, win_rate, sl_price. The slug is published so anyone can independently verify each market on polymarket.com. Strategy parameters and entry thresholds are not published anywhere.",
-  "return_pct": 0.2489,
-  "runs_archive_count": 2,
-  "snapshot_at": "2026-06-06T00:59:33.479556Z",
+  "return_pct": 0.3069,
+  "runs_archive_count": 4,
+  "snapshot_at": "2026-06-07T00:10:00.983782Z",
   "snip": {
     "losses": 1,
-    "trades": 55,
-    "win_rate": 0.9818,
-    "wins": 54
+    "trades": 21,
+    "win_rate": 0.9524,
+    "wins": 20
   },
-  "total_pnl": 12.505803,
-  "total_volume": 5024.458956,
-  "trades_resolved": 212,
-  "trades_total": 212,
-  "win_rate": 0.990566,
-  "wins": 210
+  "total_pnl": 16.931593,
+  "total_volume": 5516.100776,
+  "trades_resolved": 193,
+  "trades_total": 193,
+  "win_rate": 0.989637,
+  "wins": 191
 }
